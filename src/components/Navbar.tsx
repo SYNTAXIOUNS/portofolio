@@ -48,18 +48,18 @@ export default function Navbar() {
             {/* Logo */}
             <motion.a
               href="#"
-              className="flex items-center gap-2 group"
+              className="flex items-center gap-2.5 group"
               whileHover={{ scale: 1.02 }}
             >
               <div className="relative">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center shadow-lg shadow-blue-500/25">
-                  <Code2 className="w-4 h-4 text-white" />
+                <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center shadow-lg shadow-blue-500/25 group-hover:shadow-cyan-500/20 transition-all duration-300">
+                  <Code2 className="w-4.5 h-4.5 text-white" />
                 </div>
-                <div className="absolute -top-1 -right-1 w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <div className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-emerald-400 border-2 border-[#080c1a] animate-pulse" />
               </div>
-              <span className="font-bold text-lg text-white hidden sm:block">
-                <span className="gradient-text">Dev</span>
-                <span className="text-slate-300">.ID</span>
+              <span className="font-bold text-lg text-white tracking-tight hidden sm:block">
+                <span className="gradient-text">Firman</span>
+                <span className="text-slate-400">.dev</span>
               </span>
             </motion.a>
 

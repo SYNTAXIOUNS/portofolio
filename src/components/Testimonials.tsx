@@ -88,16 +88,6 @@ export default function Testimonials() {
             </motion.div>
           ))}
         </div>
-
-        {/* Note about placeholders */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={isInView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.5, delay: 0.5 }}
-          className="text-center text-xs text-slate-600 mt-8"
-        >
-          * Testimonials above are placeholder examples. Replace with real client feedback.
-        </motion.p>
       </div>
     </section>
   );
