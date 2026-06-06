@@ -22,9 +22,9 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: Mail, href: "mailto:your.email@gmail.com", label: "Email", id: "footer-email" },
-  { icon: MessageCircle, href: "https://wa.me/628123456789", label: "WhatsApp", id: "footer-whatsapp" },
-  { icon: Link2, href: "https://linkedin.com/in/yourprofile", label: "LinkedIn", id: "footer-linkedin" },
+  { icon: Mail, href: "mailto:firman.maulidiansyah@gmail.com", label: "Email", id: "footer-email" },
+  { icon: MessageCircle, href: "https://wa.me/6281234567890", label: "WhatsApp", id: "footer-whatsapp" },
+  { icon: Link2, href: "https://linkedin.com/in/firman-maulidiansyah", label: "LinkedIn", id: "footer-linkedin" },
   { icon: Code2, href: "https://github.com/SYNTAXIOUNS", label: "GitHub", id: "footer-github" },
   { icon: Globe, href: "#", label: "Freelance", id: "footer-freelance" },
 ];
@@ -49,13 +49,13 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           {/* Brand column */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center shadow-lg shadow-blue-500/25">
-                <Code2 className="w-4 h-4 text-white" />
+            <div className="flex items-center gap-2.5 mb-4">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center shadow-lg shadow-blue-500/25">
+                <Code2 className="w-4.5 h-4.5 text-white" />
               </div>
-              <span className="font-bold text-lg text-white">
-                <span className="gradient-text">Dev</span>
-                <span className="text-slate-400">.ID</span>
+              <span className="font-bold text-lg text-white tracking-tight">
+                <span className="gradient-text">Firman</span>
+                <span className="text-slate-400">.dev</span>
               </span>
             </div>
             <p className="text-sm text-slate-500 leading-relaxed max-w-xs mb-6">
@@ -107,7 +107,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-600">
-            © {new Date().getFullYear()} Your Name. Built with Next.js, TypeScript & Tailwind CSS.
+            © {new Date().getFullYear()} Firman Maulidiansyah. All rights reserved. Built with Next.js & Tailwind CSS.
           </p>
           <div className="flex items-center gap-4">
             <span className="text-xs text-slate-700">

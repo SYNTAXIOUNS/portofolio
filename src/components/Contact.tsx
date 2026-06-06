@@ -17,8 +17,8 @@ const contactLinks = [
   {
     icon: Mail,
     label: "Email",
-    value: "your.email@gmail.com",
-    href: "mailto:your.email@gmail.com",
+    value: "firman.maulidiansyah@gmail.com",
+    href: "mailto:firman.maulidiansyah@gmail.com",
     color: "from-blue-500 to-cyan-500",
     border: "border-blue-500/20",
     id: "contact-email",
@@ -26,8 +26,8 @@ const contactLinks = [
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "+62 812-3456-7890",
-    href: "https://wa.me/628123456789",
+    value: "Direct Chat",
+    href: "https://wa.me/6281234567890", // Placeholder but clean
     color: "from-emerald-500 to-teal-500",
     border: "border-emerald-500/20",
     id: "contact-whatsapp",
@@ -35,8 +35,8 @@ const contactLinks = [
   {
     icon: Link2,
     label: "LinkedIn",
-    value: "linkedin.com/in/yourprofile",
-    href: "https://linkedin.com/in/yourprofile",
+    value: "linkedin.com/in/firman-maulidiansyah",
+    href: "https://linkedin.com/in/firman-maulidiansyah",
     color: "from-blue-600 to-indigo-600",
     border: "border-indigo-500/20",
     id: "contact-linkedin",

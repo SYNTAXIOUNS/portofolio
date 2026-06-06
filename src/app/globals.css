@@ -179,3 +179,37 @@ button {
 .font-mono {
   font-family: "JetBrains Mono", "Fira Code", monospace;
 }
+
+/* Blink animation for simulated terminal cursor */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1.2s step-end infinite;
+}
+
+/* Syntax highlighting utilities for simulated code mockup */
+.syntax-keyword { color: #ff79c6; font-weight: 600; } /* Pink/Rose keyword */
+.syntax-string { color: #50fa7b; }                  /* Green string */
+.syntax-function { color: #8be9fd; }                /* Cyan function */
+.syntax-number { color: #bd93f9; }                  /* Purple number */
+.syntax-comment { color: #6272a4; font-style: italic; } /* Slate comment */
+.syntax-variable { color: #f8f8f2; }               /* Off-white variable */
+.syntax-type { color: #ffb86c; }                   /* Orange type */
+.syntax-tag { color: #ff5555; }                    /* Red tag */
+
+/* Premium radial glows */
+.mesh-glow-blue {
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, rgba(59, 130, 246, 0) 70%);
+}
+
+.mesh-glow-cyan {
+  background: radial-gradient(circle, rgba(6, 182, 212, 0.15) 0%, rgba(6, 182, 212, 0) 70%);
+}
+
+.mesh-glow-purple {
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, rgba(139, 92, 246, 0) 70%);
+}
+

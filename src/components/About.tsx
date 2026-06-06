@@ -76,14 +76,12 @@ export default function About() {
               className="space-y-4 text-slate-400 leading-relaxed"
             >
               <p>
-                I&apos;m a fullstack developer and IT professional from{" "}
+                I&apos;m <span className="text-white font-semibold">Firman Maulidiansyah</span>, a fullstack developer and IT professional based in{" "}
                 <span className="inline-flex items-center gap-1 text-slate-300">
                   <MapPin className="w-3.5 h-3.5 text-blue-400" />
                   Indonesia
                 </span>
-                , with a background that bridges technical implementation and
-                business operations. My work spans IT support, infrastructure
-                management, and modern web application development.
+                . I bridge the gap between technical execution and business operations, with a solid track record of software development, IT systems support, and digital transformation.
               </p>
               <p>
                 I specialize in building{" "}
